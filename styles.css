@@ -1,0 +1,339 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1078px;
+    margin: auto;
+}
+
+.header {
+    margin-top: 55px;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 150px;
+}
+
+.menu li {
+    display: inline;
+    margin: 0px 32px;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.order {
+    background-color: white;
+    border: 2px black solid;
+    text-align: center;
+    padding: 18px 53px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.sticker {
+    display: flex;
+}
+
+.timetable-box-label {
+    display: inline-block;
+    height: 52px;
+    border: 2px black solid;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF8827;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding-left: 23px;
+    padding-right: 39px;
+}
+
+.timetable-box-value {
+    display: inline-block;
+    height: 52px;
+    line-height: 52px;
+    background-color: #FBEDE0;
+    border-radius: 30px;
+    padding: 0px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #D86C00;
+    position: relative;
+    top: -34px;
+    left: -45px;
+    margin-right: -25px;
+}
+
+.section-cream {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #FBEDE0;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+    margin-top: 84px;
+    padding: 90px;
+    padding-right: 42px;
+    padding-bottom: 40px;
+}
+
+.heading {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 80px;
+    color: #1F4B59;
+}
+
+.text-welcome {
+    width: 354px;
+    min-height: 170px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1F4B59;
+    margin: 36px 0px;
+    text-decoration: none;
+}
+
+.orange-button {
+    background-color: #D86C00;
+    border: none;
+    text-align: center;
+    display: block;
+    padding: 18px 53px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.welcome-image {
+    width: 480px;
+    position: relative;
+    top: -130px
+}
+
+.section-bw {
+    margin-top: 96px;
+    position: relative;
+    z-index: 0;
+    height: 570px;
+}
+
+.box-bw {
+    border: 2px black solid;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    background-color: white;
+    padding: 120px 135px 96px 66px;
+}
+
+.box-bw-size {
+    position: absolute;
+    top: -5px;
+    bottom: 5px;
+    left: -5px;
+    right: 5px;
+}
+
+.small-heading {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 48px;
+    color: #1F4B59;
+    width: 266px;
+    margin-top: 109px;
+}
+
+.content-bw {
+    z-index: 1;
+    position: relative;
+}
+
+.museums-buttons {
+    display: inline-block;
+    border: 2px #FF8827 solid;
+    background-color: white;
+    text-align: center;
+    padding: 18px 37px;
+    color: #FF8827;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+}
+
+.museum-hystory {
+    border-bottom-right-radius: 0;
+    left: 54px;
+    top: 17px;
+}
+
+.museum-repin {
+    border-bottom-left-radius: 0;
+    left: 588px;
+    top: 18px;
+}
+
+.museum-art {
+    border-top-left-radius: 0;
+    left: 449px;
+    bottom: -41px;
+}
+
+.logo-cream {
+    width: 208px;
+}
+
+.musems-group {
+    position: relative;
+}
+
+.logo-museums-group {
+    position: absolute;
+}
+
+.logo-hystory {
+    width: 100px;
+    left: -33px;
+    top: -33px;
+}
+
+.logo-repin {
+    width: 100px;
+    left: 142px;
+    top: -33px;
+}
+
+.logo-art {
+    width: 207px;
+    left: 0px;
+    bottom: -33px;
+}
+
+.all-museums-logos {
+    position: absolute;
+    left: 134px;
+    top: -38px;
+    height: 350px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #FBEDE0;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-top: 90px;
+    padding: 67px 270px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.main-footer {
+    width: 883px;
+    height: 211px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+.xs-heading {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1F4B59;
+    margin-bottom: 30px;
+}
+
+.contacts-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img-margins {
+    margin-right: 40px;
+}
+
+.text-footer {
+    line-height: 21px;
+    color: #1F4B59;
+    text-decoration: none;
+}
+
+.name {
+    color: #1F4B59;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.contact-phone {
+    display: flex;
+    align-items: flex-start;
+}
+
+.name-job {
+    margin-top: 9px;
+}
+
+.phone-email {
+    margin-top: 20px;
+}
+
+.margin-text {
+    margin-top: 5px;
+    display: block;
+}
